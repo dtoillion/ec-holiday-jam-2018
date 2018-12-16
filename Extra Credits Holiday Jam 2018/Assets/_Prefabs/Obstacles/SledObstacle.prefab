@@ -36,7 +36,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4555938862839818}
-  - component: {fileID: 114692909128344506}
   - component: {fileID: 114039583403918640}
   - component: {fileID: 65050563557932108}
   - component: {fileID: 54376218987522236}
@@ -295,17 +294,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CrashedSled: {fileID: 1697414036801556, guid: 539b7c0b57cab453f8b4a4cb7f15a4a1,
     type: 2}
---- !u!114 &114692909128344506
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1294074711086430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84775aa39ce374462a997ef0ec64b9a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   Speed: 2
 --- !u!198 &198037391751203164
 ParticleSystem:

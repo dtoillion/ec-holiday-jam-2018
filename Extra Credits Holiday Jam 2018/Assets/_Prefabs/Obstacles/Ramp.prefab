@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 54869560535677290}
   - component: {fileID: 114052011541338412}
   - component: {fileID: 82044521402460762}
+  - component: {fileID: 65427269555499762}
   m_Layer: 0
   m_Name: Ramp
   m_TagString: Untagged
@@ -412,10 +413,22 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: b9d7ac1a0f551404f8d32e1e02b64325, type: 3}
+--- !u!65 &65427269555499762
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541901935790172}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65901717430679176
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -573,4 +586,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84775aa39ce374462a997ef0ec64b9a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: -7

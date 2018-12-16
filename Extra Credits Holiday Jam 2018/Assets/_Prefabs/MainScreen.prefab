@@ -839,12 +839,10 @@ MonoBehaviour:
   - {fileID: 1843322642682916, guid: 995fb71d8a9cc45a58b536ebc785208e, type: 2}
   - {fileID: 1264623953849384, guid: 433e8755d934a4f54a9212f1ec10fc5e, type: 2}
   - {fileID: 1541901935790172, guid: ecb8f3798b2cc492485b8dfa3c5f6646, type: 2}
-  - {fileID: 1541901935790172, guid: ecb8f3798b2cc492485b8dfa3c5f6646, type: 2}
   - {fileID: 1613295678938860, guid: 0aa2f6d65054f4477999db78d332156d, type: 2}
-  - {fileID: 1613295678938860, guid: 0aa2f6d65054f4477999db78d332156d, type: 2}
-  SpawnRateA: 1
-  SpawnRateB: 4
-  startDelay: 1
+  SpawnRateA: 0.5
+  SpawnRateB: 2
+  startDelay: 3
   minX: 30
   maxX: 30
   minY: 0

@@ -14,6 +14,8 @@ public class MainMenu : MonoBehaviour {
   {
     if(Input.GetKeyDown("space"))
     {
+      // fade out music
+      // fade out scene
       SceneManager.LoadScene("Main");
     }
   }
